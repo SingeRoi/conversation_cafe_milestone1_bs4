@@ -23,6 +23,8 @@ h1 {
     letter-spacing: 7px;
     text-transform: uppercase;
 }
+.navbar-expand-sm .navbar-toggler {
+    display: inline-flex;
 
 .navbar .navbar-collapse {
     text-align: right;
@@ -35,7 +37,7 @@ h1 {
     color: transparent;
 }
 
-.navbar-fixed-top .container {
+.sticky-top .container {
     text-align: right;
     margin-right: 1%;
     margin-top: 1%;
