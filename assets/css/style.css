@@ -25,16 +25,16 @@ h1 {
 }
 .navbar-expand-sm .navbar-toggler {
     display: inline-flex;
-
-.navbar .navbar-collapse {
+}
+/*.navbar .navbar-collapse {
     text-align: right;
     border-top: 1px solid transparent;
     overflow-x: hidden;
-}
+}*/
 
 .navbar-nav li a {
     padding: 20px 25px 15px 25px;
-    color: transparent;
+    color: rgba(0, 176, 194, 0.5);
 }
 
 .sticky-top .container {
@@ -43,6 +43,23 @@ h1 {
     margin-top: 1%;
 }
 
+.btn-secondary {
+    color: rgba(0, 176, 194, 0.5);
+    background-color: tranparent;
+    border-color: rgba(0, 176, 194, 0.5);
+}
+.fa-bars {
+  color:rgba(0, 176, 194, 1);
+  background-color: transparent;
+  padding-top: 20px;
+  padding-left: 7px;
+border-radius: 50%;
+font-size: 36px;
+width: 54px;
+height: 54px;
+line-height: 14px;
+
+  }
 /*---------speech bubble effect-----------*/
 
 /*--------vertical text speech bubble----*/
@@ -310,15 +327,49 @@ p::before {
 
 
 .language {
+  color: rgba(0, 176, 194, 1);
+  background-color: transparent;
+  border-color: rgba(0, 176, 194, 1);
+  font-weight: 700;
     display: inline-block;
     padding-right: 20px;
     line-height: 44px;
 }
 
 .language:hover {
-    color: #564F6F!important;
+    color: #fff;
+    background-color: rgba(0, 176, 194, 0.5);
+    border-color: rgba(0, 176, 194, 0.5);
+    font-weight: 700;
     text-decoration: none;
 }
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 176, 194, 1);
+}
+
+.navbar-toggler {
+  color: rgba(0, 176, 194, 1);
+  background-color: transparent;
+  border-color: rgba(0, 176, 194, 1);
+  border-left-color: rgba(0, 176, 194, .5);
+  font-weight: 700;
+    display: inline-block;
+    padding-right: 10px;
+    line-height: 44px;
+}
+
+
+/*.navbar-toggler-icon {
+  color: rgba(0, 176, 194, 1);
+  background-color: transparent;
+  border-color: rgba(0, 176, 194, 1);
+  font-weight: 700;
+    display: inline-block;
+    padding-right: 20px;
+    line-height: 44px;
+}*/
+
+
 
 a {
     background-color: #E4E4E4;
@@ -331,9 +382,31 @@ a {
     -webkit-transition: all .3s ease-in-out;
 }
 
-.navbar-default .navbar-nav li a:hover {
+/*.navbar-default .navbar-nav li a:hover {
     color: #564F6F;
+}*/
+
+.navbar-toggler::before {
+  color: rgba(0, 176, 194,0.5);
+  background-color: transparent;
+  border-color: rgba(0, 176, 194,0.5);
 }
+.navbar-toggler:hover {
+  color: rgba(0, 91, 171, 0.5);
+  background-color: (0, 176, 194,0.5);
+  border-color: rgba(0, 91, 171, 0.5);
+}
+i:hover {
+    color: #fff;
+    background-color: (0, 176, 194,0.5); important;
+  }
+
+
+/*.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: rgba(255, 145, 92,0.5);
+    border-color: rgb(255, 145, 92);
+}*/
 
 .navbar-right {
     float: right!important;
@@ -788,8 +861,8 @@ ul li{
   position: relative;
   float: left;
   width: 100%;
-  height: 100px;
-  border-bottom: 1px solid #005bab;
+  /*height: 100px;
+  border-bottom: 1px solid #005bab;*/
 }
 
 ul li input[type=radio]{
@@ -1110,8 +1183,17 @@ i {
 
 i:hover {
     color: #564F6F;
-
 }
+.fa-bars:hover {
+    color: #fff;
+    background-color: rgba(0, 176, 194, 0.5);
+  }
+  .fa-bars::after {
+      color: #fff;
+      background-color: #564F6F;
+    }
+
+
 /* ----------Quiz Modal --------*/
 
 .quiz-modal {
