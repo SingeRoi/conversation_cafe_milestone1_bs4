@@ -633,7 +633,7 @@ font-size: 1.25em;
 border-radius: 1rem;
 }
 
-.youtube-p {
+/* .youtube-p {
 position: relative;
 max-width: 30em;
 background-color: rgba(0, 176, 194, 0.5);
@@ -641,7 +641,7 @@ color: rgba(0, 91, 171, 1);
 padding: 1.25em 1.35em;
 font-size: 1.25em;
 border-radius: 1rem;
-}
+} */
 
 .centered-thing {
     position: absolute;
