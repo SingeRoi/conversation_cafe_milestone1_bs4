@@ -2,19 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <!--  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/portfolioicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/portfolioicon.png"> -->
   <!--  <link rel="stylesheet" href="./libraries/bootstrap.min.css" type="text/css" /> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
@@ -91,38 +85,50 @@
     <!--***********learn********-->
     <section class="jumbotron"  id="learn">
         <div class="container scroll-learn" >
-            <div class="col-6 col-sm-4 project-cards">
+
+          <div class="card-deck">
+              <div class="col-6 col-sm-4 project-cards">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Test your English</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Take a test to know your English level</h6>
                         <p class="card-text">Take a simple test with the British Council to decide what level of English to study at.  </p>
-                        <div class="row">
+                      </div>
+                      <div class="card-footer">
+                        <div class="d-flex justify-content-around">
+                          <div class="row">
                             <a href="https://learnenglishteens.britishcouncil.org/content" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
                             <a href="https://github.com/hschafer2017/Sports-Multi-timer-Assistant" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+                          </div>
                         </div>
-                    </div>
+                      </div>
+                  </div>
                 </div>
-            </div>
             <div class="col-6 col-sm-4 project-cards">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Simple English</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Beginner English Flashcards</h6>
                         <p class="card-text flashcard">Simple English Flashcards to help you learn</p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="d-flex justify-content-around">
                         <div class="row">
+                          <div class="d-flex justify-content-center">
                             <a href="https://tinycards.duolingo.com/decks/GAXRgJ/english-words?lesson=0" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
                             <a href="https://github.com/hschafer2017/PCSwimming" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+                          </div>
                         </div>
+                      </div>
+                       </div>
                     </div>
                 </div>
-            </div>
+
             <div class="col-6 col-sm-4 project-cards">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Watch & take a quiz</h5>
                         <h6 class="card-subtitle mb-2 text-muted">TED Talk Half a Million Secrets</h6>
-
                         <p class="card-text video-p">
                           <video width="180" height="135" autoplay position="0">
                             <source src="https://ossattachment.likeshuo.com/courseware/o_1dfuvtohf19n9pc6qvbut219rne.mp4?Expires=1595974590&OSSAccessKeyId=LTAIBZJCQccTiSLS&Signature=znPBz6%2BCiC9KseFCBPRfCdo0HUQ%3D" type="video/mp4">
@@ -130,127 +136,83 @@
                                 Your browser does not support the video tag.
                           </video>
                         </p>
+                      </div>
+                      <div class="card-footer">
+                        <div class="d-flex justify-content-around">
                         <div class="row">
                             <a href="https://ossattachment.likeshuo.com/courseware/o_1dfuvtohf19n9pc6qvbut219rne.mp4?Expires=1595974590&OSSAccessKeyId=LTAIBZJCQccTiSLS&Signature=znPBz6%2BCiC9KseFCBPRfCdo0HUQ%3D" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
                             <!-- Button HTML (to Trigger Modal) -->
-                            <a href="#myModal" class="btn btn-sm" data-toggle="modal" data-backdrop="false"><i class="fa fa-question question-icon"></i></a>
+                            <a href="#myQuizModal_1" class="btn btn-sm" data-toggle="modal" data-backdrop="false"><i class="fa fa-question question-icon"></i></a>
+                       </div>
+                       </div>
                     </div>
                 </div>
             </div>
             <!-- Modal HTML -->
-            <div id="myModal" class="modal fade quiz-modal">
-                <div class="modal-dialog">
-                   <div class="modal-content">
-                      <div class="modal-header">
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title">Quiz</h4>
-                      </div>
-                      <div class="modal-body quiz-body">
-                      <!--   Q&A Quiz      -->
-                         <div class="row"><br><br>
-                            <div class="col-sm-8 offset-sm-2">
-                               <div class="loader">
-                                  <div class="col-xs-3 offset-xs-5">
-                                     <div id="loadbar" style="display: none;">
-                                     <!--     <img src="https://8finatics.s3.amazonaws.com/static/reload_emi.gif" alt="Loading" class="mx-auto loanParamsLoader" style=""> -->
-                                     </div>
-                                  </div>
-                                  <div id="quiz">
-                                    <div class="question">
-                                       <h3><span class="tag label-warning" id="qid">1</span>
-                                       <span id="question">"A secret could be soulful" another word for soulful is?</span>
-                                       </h3>
-                                    </div>
-                                        <ul>
-                                           <li>
-                                              <input type="radio" id="f-option" name="selector" value="1">
-                                              <label for="f-option" class="element-animation">religious</label>
-                                                 <div class="check"></div>
-                                           </li>
-                                           <li>
-                                              <input type="radio" id="s-option" name="selector" value="2">
-                                              <label for="s-option" class="element-animation">emotional</label>
-                                              <div class="check"><div class="inside"></div></div>
-                                           </li>
-                                           <li>
-                                               <input type="radio" id="t-option" name="selector" value="3">
-                                               <label for="t-option" class="element-animation">painful</label>
-                                               <div class="check"><div class="inside"></div></div>
-                                           </li>
-                                        </ul>
-                                    </div>
-                               </div>
-                               <div class="text-muted">
-                                  <span id="answer"></span>
-                               </div>
-                          </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-sm-8 offset-sm-2">
-                          <div id="result-of-question" class="pulse animated" style="display: none;">
-                            <span id="totalCorrect" class="float-xs-right"></span>
-                            <table class="table table-hover table-responsive" >
-                              <thead>
-                                <tr>
-                                  <th>Question No.</th>
-                                  <th>Our answer</th>
-                                  <th>Your answer</th>
-                                  <th>Result</th>
-                                </tr>
-                              </thead>
-                                <tbody id="quizResult"></tbody>
-                            </table>
-                          </div>
-                        </div>
-                      </div>
+            <!-- QuizModal_1 -->
+  			<div id="myQuizModal_1" class="modal fade" role="dialog">
+  			  <div class="modal-dialog">
 
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="false">Reset</button>
-                    </div>
-                  </div>
-                </div>
-             </div>
-           </div>
+  			    <!-- Modal content-->
+  			       <div class="modal-content">
+  			            <div class="modal-header">
+  			                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+  			                 <h4 class="modal-title"></h4>
+  			           </div>
+  			       <div class="quiz-modal-body">
+  						     <div class="form-group rsform-block rsform-block-framecontent">
+  							       <div id="frame1" role="content"></div>
+  						   	</div>
+  						 	  <hr>
+              </div>
+  			      <div class="modal-footer">
+  			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  			      </div>
+  			    </div>
 
+  			  </div>
+  			</div>
 
             <div class="col-6 col-sm-4 project-cards">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Learn with a song </h5>
                         <h6 class="card-subtitle mb-2 text-muted">'Waterloo Sunset' performed by Ty Segall</h6>
-                        <p class="card-text"> <!-- performed by Ty Segall</p>
-
-                             <p class="card-text"> -->
-                          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303719236&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                        <p class="card-text">
+                          <iframe width="100%" height="136" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303719236&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                           </p>
-                          <div class="card-footer">
-                            <div class="row">
+                    </div>
+                    <div class="card-footer">
+                      <div class="d-flex justify-content-around">
+                        <div class="row">
                             <a href="https://soundcloud.com/mad-mackerel/ty-segall-waterloo-sunset-kinks-cover" class="card-link" target="_blank"><i class="fab fa-soundcloud desktop-icon"></i></a>
                             <a href="assets/pdfs/Waterloo_Sunset.pdf" class="card-link" target="_blank"><i class="fa fa-file github-icon"></i></a>
-                           </div>
-                         </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
+
             <div class="col-6 col-sm-4 project-cards">
                 <div class="card">
                     <div class="card-body">
                       <h5 class="card-title">Learn with a song </h5>
                       <h6 class="card-subtitle mb-2 text-muted">It's a Wonderful World' by Louis Armstrong</h6>
                       <p class="card-text">
-                            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/75308415&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                            <iframe width="100%" height="136" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/75308415&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                             </p>
-                              <div class="card-footer">
-                                <div class="row">
-                                  <a href="https://soundcloud.com/user4914408/louis-armstrong-what-a" class="card-link" target="_blank"><i class="fab fa-soundcloud github-icon"></i></a>
-                                  <a href="assets/pdfs/Wonderful_World.pdf" class="card-link" target="_blank"><i class="fa fa-file github-icon"></i></a>
-                                 </div>
-                             </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-around">
+                           <div class="row">
+                           <a href="https://soundcloud.com/user4914408/louis-armstrong-what-a" class="card-link" target="_blank"><i class="fab fa-soundcloud github-icon"></i></a>
+                           <a href="assets/pdfs/Wonderful_World.pdf" class="card-link" target="_blank"><i class="fa fa-file github-icon"></i></a>
+                           </div>
+                        </div>
                     </div>
                 </div>
-              </div>
+            </div>
+
             <div class="col-6 col-sm-4 project-cards">
             <div class="card">
               <div  class="card-body">
@@ -276,7 +238,7 @@
                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                     <h4 class="modal-title">Quiz</h4>
                                   </div>
-                                  <div class="modal-body quiz-body">
+                                  <div class="quiz-modal-body quiz-body">
                                     <!--   Q&A Quiz      -->
                                     <div class="row"><br><br>
                                       <div class="col-sm-8 offset-sm-2">
@@ -351,7 +313,6 @@
                 </div>
               </div>
             </div>
-          </div>
           </div>
 
         </div>
@@ -487,7 +448,7 @@
                     <button type="button" class="close" data-dismiss="modal" style='text-align: right;' aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title">Contact Form</h4>
                 </div>
-                <div class="modal-body">
+                <div class="contact-modal-body">
                     <p class="header"> About this contact form:</p>
                         <p>This contact form does not currently send messages or collect any personal information. Furthermore, this site does not collect any personal data. Please consult the <a class="privacy-policy" href="privacy_policy.html"> privacy policy</a> for more details.</p>
 
@@ -520,5 +481,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="assets/js/index.js"></script>
 </body>
 </html>
