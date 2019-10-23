@@ -869,9 +869,9 @@ a.privacy-policy:hover {
         background-size: cover;
         width: 100vw;
     }
-    .fa-chevron-down {
+  /*  .fa-chevron-down {
         margin-top: 32vh;
-    }
+    }*/
 
 }
 @media (max-height: 667px) {

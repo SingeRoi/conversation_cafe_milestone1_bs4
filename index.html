@@ -85,7 +85,9 @@
     <!--***********learn********-->
     <section class="jumbotron"  id="learn">
         <div class="container scroll-learn" >
-
+          <div class="row" >
+              <h2>Learn</h2>
+          </div>
           <div class="card-deck">
               <div class="col-6 col-sm-4 project-cards">
                 <div class="card">
@@ -98,7 +100,7 @@
                         <div class="d-flex justify-content-around">
                           <div class="row">
                             <a href="https://learnenglishteens.britishcouncil.org/content" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
-                            <a href="https://github.com/hschafer2017/Sports-Multi-timer-Assistant" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+                          <!--  <a href="https://github.com/hschafer2017/Sports-Multi-timer-Assistant" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a> -->
                           </div>
                         </div>
                       </div>
@@ -116,7 +118,7 @@
                         <div class="row">
                           <div class="d-flex justify-content-center">
                             <a href="https://tinycards.duolingo.com/decks/GAXRgJ/english-words?lesson=0" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
-                            <a href="https://github.com/hschafer2017/PCSwimming" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+                          <!--  <a href="https://github.com/hschafer2017/PCSwimming" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a> -->
                           </div>
                         </div>
                       </div>
@@ -130,7 +132,7 @@
                         <h5 class="card-title">Watch & take a quiz</h5>
                         <h6 class="card-subtitle mb-2 text-muted">TED Talk Half a Million Secrets</h6>
                         <p class="card-text video-p">
-                          <video width="180" height="135" autoplay position="0">
+                          <video width="180" height="135" position="0">
                             <source src="https://ossattachment.likeshuo.com/courseware/o_1dfuvtohf19n9pc6qvbut219rne.mp4?Expires=1595974590&OSSAccessKeyId=LTAIBZJCQccTiSLS&Signature=znPBz6%2BCiC9KseFCBPRfCdo0HUQ%3D" type="video/mp4">
                               <source src="movie.ogg" type="video/ogg">
                                 Your browser does not support the video tag.
@@ -216,103 +218,107 @@
             <div class="col-6 col-sm-4 project-cards">
             <div class="card">
               <div  class="card-body">
-                <h5 class="card-title">Watch & take a quiz</h5>
+                <h5 class="card-title">Watch & do a crossword</h5>
                 <h6 class="card-subtitle mb-2 text-muted">TED Talk Forget Shopping</h6>
                     <p class="card-text video-p">
-                    <video width="180" height="135" autoplay position="0">
+                    <video width="180" height="135"  position="0">
                     <source src="https://ossattachment.likeshuo.com/courseware/o_1dfuvtohf1eme1oaj18r41n2ephvg.mp4?Expires=1596619934&OSSAccessKeyId=LTAIBZJCQccTiSLS&Signature=%2FNgS4sYaZD3dtmDvpHWqMUMlAyY%3D" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
                     Your browser does not support the video tag.
                     </video>
                     </p>
-                    <div class="card-footer">
+              </div>
+              <div class="card-footer">
+                 <div class="d-flex justify-content-around">
                     <div class="row">
                         <a href="https://ossattachment.likeshuo.com/courseware/o_1dfuvtohf1eme1oaj18r41n2ephvg.mp4?Expires=1596619934&OSSAccessKeyId=LTAIBZJCQccTiSLS&Signature=%2FNgS4sYaZD3dtmDvpHWqMUMlAyY%3D" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
                         <!-- Button HTML (to Trigger Modal) -->
-                        <a href="#myModal" class="btn btn-sm" data-toggle="modal" data-backdrop="false"><i class="fa fa-question question-icon"></i></a>
-                           <!-- Modal HTML -->
-                          <div id="myModal" class="modal fade quiz-modal">
-                             <div class="modal-dialog">
-                               <div class="modal-content">
-                                  <div class="modal-header">
-                                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title">Quiz</h4>
-                                  </div>
-                                  <div class="quiz-modal-body quiz-body">
-                                    <!--   Q&A Quiz      -->
-                                    <div class="row"><br><br>
-                                      <div class="col-sm-8 offset-sm-2">
-                                        <div class="loader">
-                                          <div class="col-xs-3 offset-xs-5">
-                                            <div id="loadbar2" style="display: none;">
-                                              <!-- <img src="https://8finatics.s3.amazonaws.com/static/reload_emi.gif" alt="Loading" class="mx-auto loanParamsLoader" style=""> -->
-                                            </div>
-                                          </div>
+                        <a href="#myModal" class="btn btn-sm" data-toggle="modal" data-backdrop="false"><i class="fas fa-edit question-icon"></i></a>
 
-                                          <div id="quiz2">
-                                            <div class="question2">
-                                              <h3><span class="tag label-warning" id="qid2">1</span>
-                                                <span id="question2"> "I always felt most creative when I worked from home" creative means?</span>
-                                              </h3>
-                                            </div>
-                                            <ul>
-                                              <li>
-                                                <input type="radio" id="f-option2" name="selector" value="1">
-                                                <label for="f-option2" class="element-animation">able to imagine more exciting things</label>
-                                                <div class="check"></div>
-                                              </li>
-
-                                              <li>
-                                                <input type="radio" id="s-option2" name="selector" value="2">
-                                                <label for="s-option2" class="element-animation">able to earn more money</label>
-                                                <div class="check"><div class="inside"></div></div>
-                                              </li>
-
-                                              <li>
-                                                <input type="radio" id="t-option2" name="selector" value="3">
-                                                <label for="t-option2" class="element-animation">more comfortable</label>
-                                                <div class="check"><div class="inside"></div></div>
-                                              </li>
-                                            </ul>
-                                          </div>
-                                        </div>
-                                        <div class="text-muted">
-                                          <span id="answer2"></span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="col-sm-8 offset-sm-2">
-                                        <div id="result-of-question2" class="pulse animated" style="display: none;">
-                                          <span id="totalCorrect2" class="float-xs-right"></span>
-                                          <table class="table table-hover table-responsive" >
-                                            <thead>
-                                              <tr>
-                                                <th>Question No.</th>
-                                                <th>Our answer</th>
-                                                <th>Your answer</th>
-                                                <th>Result</th>
-                                              </tr>
-                                            </thead>
-                                            <tbody id="quizResult2"></tbody>
-                                          </table>
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Reset</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
                     </div>
+                </div>
                 </div>
               </div>
             </div>
+            <!-- Modal HTML -->
+           <div id="myModal" class="modal fade quiz-modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                   <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                     <h4 class="modal-title">Quiz</h4>
+                   </div>
+                   <div class="quiz-modal-body quiz-body">
+                     <!--   Q&A Quiz      -->
+                     <div class="row"><br><br>
+                       <div class="col-sm-8 offset-sm-2">
+                         <div class="loader">
+                           <div class="col-xs-3 offset-xs-5">
+                             <div id="loadbar2" style="display: none;">
+                               <!-- <img src="https://8finatics.s3.amazonaws.com/static/reload_emi.gif" alt="Loading" class="mx-auto loanParamsLoader" style=""> -->
+                             </div>
+                           </div>
+
+                           <div id="quiz2">
+                             <div class="question2">
+                               <h3><span class="tag label-warning" id="qid2">1</span>
+                                 <span id="question2"> "I always felt most creative when I worked from home" creative means?</span>
+                               </h3>
+                             </div>
+                             <ul>
+                               <li>
+                                 <input type="radio" id="f-option2" name="selector" value="1">
+                                 <label for="f-option2" class="element-animation">able to imagine more exciting things</label>
+                                 <div class="check"></div>
+                               </li>
+
+                               <li>
+                                 <input type="radio" id="s-option2" name="selector" value="2">
+                                 <label for="s-option2" class="element-animation">able to earn more money</label>
+                                 <div class="check"><div class="inside"></div></div>
+                               </li>
+
+                               <li>
+                                 <input type="radio" id="t-option2" name="selector" value="3">
+                                 <label for="t-option2" class="element-animation">more comfortable</label>
+                                 <div class="check"><div class="inside"></div></div>
+                               </li>
+                             </ul>
+                           </div>
+                         </div>
+                         <div class="text-muted">
+                           <span id="answer2"></span>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="row">
+                       <div class="col-sm-8 offset-sm-2">
+                         <div id="result-of-question2" class="pulse animated" style="display: none;">
+                           <span id="totalCorrect2" class="float-xs-right"></span>
+                           <table class="table table-hover table-responsive" >
+                             <thead>
+                               <tr>
+                                 <th>Question No.</th>
+                                 <th>Our answer</th>
+                                 <th>Your answer</th>
+                                 <th>Result</th>
+                               </tr>
+                             </thead>
+                             <tbody id="quizResult2"></tbody>
+                           </table>
+                         </div>
+                       </div>
+                     </div>
+
+                   </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                     <button type="button" class="btn btn-primary">Reset</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
           </div>
 
         </div>
