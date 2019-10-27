@@ -20,6 +20,16 @@ $('#contact-form').on('submit', function(e) {
     e.preventDefault();
 })
 
+$(function(){
+    var loading = $('#loadbar').hide();
+    $(document)
+    .ajaxStart(function () {
+        loading.show();
+    }).ajaxStop(function () {
+    	loading.hide();
+    });
+
+
 
 /** <quiz script> **/
 var quiztitle = "PostSecret English Quiz";

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #005bab;
     color: #ff915c;
@@ -569,6 +573,11 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
 /*.img:before, img:after          {width:100% !important;}*/
 /*modal quiz style end*/
 
+/*-------- crossword modal --------*/
+
+
+
+/*-------- end crossword modal --------*/
 
 /*--------support-----------*/
 
@@ -582,40 +591,35 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
     margin-bottom: 10%;
 }
 
+.support-cards {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-icon {
+    padding: 20px 0;
+    border-radius: 50%;
+  /*  background-color: #fe6485;*/
+    font-size: 34px;
+    width: 54px;
+    height: 54px;
+    line-height: 18px;
+}
+
 @media (min-width: 768px) {
     .support-inner {
         width: 738px;
     }
 }
 
-.support-circle {
+/*.support-circle {
     display: inline-table;
     margin-bottom: 55px;
     padding-left: 6%;
-}
+}*/
 
-.arc1 {
-    width: 160px;
-    height: 160px;
-    background: #564F6F;
-    -webkit-transform-origin: -51% 91%;
-    margin-left: -35px;
-    margin-top: -53px;
-    -webkit-transform: translate(-64px, 50px);
-    -moz-transform: translate(-64px, 50px);
-    -o-transform: translate(-64px, 50px);
-}
 
-.arc2 {
-    margin-left: -115px;
-    width: 193px;
-    height: 177px;
-    background: #564F6F;
-    -webkit-transform: skew(55deg, 0deg);
-    -moz-transform: skew(55deg, 0deg);
-    -o-transform: skew(55deg, 0deg);
-    position: absolute;
-    -webkit-transition: all .5s linear;
 }
 
 #html-load2 {
@@ -638,62 +642,6 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
     margin-top: -109px;
 }
 
-.arc-wrapper {
-    width: 120px;
-    height: 120px;
-    border-radius: 150px;
-    background: #d3d3d3;
-    overflow: hidden;
-    left: 0px;
-    top: 50px;
-    position: absolute;
-}
-
-.arc-overlay {
-    width: 110px;
-    height: 110px;
-    background-color: #fafafa;
-    padding-left: 20px;
-    padding-top: 6px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    line-height: 100px;
-    font-weight: 400;
-    text-shadow: 0 1px 0 #fff;
-    font-size: 22px;
-    border-radius: 100px;
-    position: absolute;
-    z-index: 5;
-    top: 55px;
-    left: 5px;
-}
-
-.arc-container {
-    position: relative;
-    height: 130px;
-    width: 130px;
-}
-
-.html {
-    padding-left: 5px;
-}
-
-.css {
-    padding-left: 11px;
-}
-
-.js {
-    padding-left: 20px;
-}
-
-.py {
-    padding-left: 17px;
-}
-
-.sql {
-    padding-top: 1px;
-    padding-left: 13px;
-}
 
 /*-------CONTACT-----------*/
 
@@ -869,9 +817,7 @@ a.privacy-policy:hover {
         background-size: cover;
         width: 100vw;
     }
-  /*  .fa-chevron-down {
-        margin-top: 32vh;
-    }*/
+
 
 }
 @media (max-height: 667px) {
