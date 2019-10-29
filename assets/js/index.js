@@ -2,6 +2,7 @@
 // Modified from a tutorial found at
 // https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2
 
+/*
 $('a[href^="#"]').on('click', function(event) {
 
     var target = $(this.getAttribute('href'));
@@ -29,7 +30,7 @@ $(function(){
     	loading.hide();
     });
 
-
+*/
 
 /** <quiz script> **/
 var quiztitle = "PostSecret English Quiz";

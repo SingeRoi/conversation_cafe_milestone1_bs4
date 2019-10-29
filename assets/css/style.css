@@ -43,15 +43,15 @@ h1 {
 }
 
 .btn-secondary {
-    color: rgba(0, 176, 194, 0.5);
-    background-color: tranparent;
-    border-color: rgba(0, 176, 194, 0.5);
+    color: rgba(254, 100, 133, 1);
+    background-color: #fff;
+    border-color: rgba(254, 100, 133, 1);
 }
 .fa-bars {
     color:rgba(0, 176, 194, 1);
     background-color: transparent;
     padding-top: 20px;
-    padding-left: 7px;
+
     border-radius: 50%;
     font-size: 36px;
     width: 54px;
@@ -209,7 +209,7 @@ p {
 p {
 	/*/ layout*/
 	position: relative;
-	max-width: 30em;
+	max-width: 55em;
 
 	/*/ looks*/
 	background-color: rgba(0, 176, 194, 0.5);/*rgba(0, 0, 199, 0.5);/*#00b0c2;*/
@@ -521,8 +521,6 @@ font-size: 1.25em;
 border-radius: 1rem;
 }
 
-
-
 .centered-thing {
     position: absolute;
     margin: auto;
@@ -530,8 +528,6 @@ border-radius: 1rem;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
 
 /*------- new modal quiz ----------*/
 input 													{ height:30px !important; }
@@ -573,11 +569,6 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
 /*.img:before, img:after          {width:100% !important;}*/
 /*modal quiz style end*/
 
-/*-------- crossword modal --------*/
-
-
-
-/*-------- end crossword modal --------*/
 
 /*--------support-----------*/
 
@@ -595,6 +586,15 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
     display: inline-table;
     justify-content: center;
     align-items: center;
+}
+
+.support-footer{
+  position:absolute;
+  margin-bottom: -25px;
+  bottom:0;
+  padding: .175rem 1.25rem;
+  border-top: 0;
+  background-color: transparent;
 }
 
 .support-icon {
@@ -686,13 +686,22 @@ a {
     background-color: transparent;
 }
 
+.wechat_btn {
+  padding: 20px 0;
+  border-radius: 50%;
+  font-size: 34px;
+  width: 54px;
+  height: 54px;
+  line-height: 18px;
+}
+
 .alignment {
     line-height: 2px;
 }
 
 i {
     display: inline-block;
-    box-shadow: 0px 0px 2px #888;
+
     background-color: #C3C3C3;
     color: #8F8F8F;
     width: 41px;
