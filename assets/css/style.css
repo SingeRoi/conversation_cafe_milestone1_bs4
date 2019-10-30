@@ -47,6 +47,7 @@ h1 {
     background-color: #fff;
     border-color: rgba(254, 100, 133, 1);
 }
+
 .fa-bars {
     color:rgba(0, 176, 194, 1);
     background-color: transparent;
@@ -57,9 +58,9 @@ h1 {
     width: 54px;
     height: 54px;
     line-height: 14px;
-
   }
-/*---------speech bubble effect-----------*/
+
+/*---------speech bubble effects-----------*/
 
 /*--------vertical text speech bubble----*/
 .speech-vertical {
@@ -96,7 +97,6 @@ h1 {
   margin-top: -1.43em;
   width: 0;
   word-wrap: break-word;
-
 }
 
 .first {
@@ -120,6 +120,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .speech-vertical::after {
     border-left: 20px solid transparent;
     border-top: 20px solid rgba(0, 176, 194, 0.5);
@@ -168,9 +169,6 @@ h1 {
 }
 /*------------------------------- auralinna's bubble end---------------------*/
 
-
-
-
 /* --------- bubble for text --------------*/
 .bubble {
     background-color: rgba(0, 91, 171, 0.5); /* bubble*/
@@ -203,7 +201,6 @@ p {
 }
 }
 
-
 /**********speech box paras-------------*/
 
 p {
@@ -217,7 +214,6 @@ p {
 	padding: 1.125em 1.5em;
 	font-size: 1.25em;
 	border-radius: 1rem;
-
 }
 
 p::before {
@@ -230,9 +226,7 @@ p::before {
 	left: 1.5em; /* offset should move with padding of parent*/
 	border: .75rem solid transparent;
 	border-top: none;
-
 }
-
 
 .language {
   color: rgba(0, 176, 194, 1);
@@ -251,6 +245,7 @@ p::before {
     font-weight: 700;
     text-decoration: none;
 }
+
 .navbar-light .navbar-toggler {
   border-color: rgba(0, 176, 194, 1);
 }
@@ -265,10 +260,6 @@ p::before {
     padding-right: 10px;
     line-height: 44px;
 }
-
-
-
-
 
 a {
     background-color: #E4E4E4;
@@ -286,17 +277,17 @@ a {
   background-color: transparent;
   border-color: rgba(0, 176, 194,0.5);
 }
+
 .navbar-toggler:hover {
   color: rgba(0, 91, 171, 0.5);
   background-color: (0, 176, 194,0.5);
   border-color: rgba(0, 91, 171, 0.5);
 }
+
 i:hover {
     color: #fff;
     background-color: (0, 176, 194,0.5); important;
   }
-
-
 
 .navbar-right {
     float: right!important;
@@ -423,7 +414,6 @@ h2 {
 
 .card-body .row {
     text-align: center;
-    /*padding-top: 10px;*/
 }
 
 .project-cards {
@@ -458,10 +448,6 @@ h2 {
   padding: .175rem 1.25rem;
   border-top: 0;
   background-color: transparent;
-}
-
-.flashcard {
-  background-image: url('blob:null/186ad1c6-ba99-4031-ba52-f0118c215bd1');
 }
 
 .card:hover {
@@ -600,7 +586,6 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
 .support-icon {
     padding: 20px 0;
     border-radius: 50%;
-  /*  background-color: #fe6485;*/
     font-size: 34px;
     width: 54px;
     height: 54px;
@@ -611,35 +596,6 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
     .support-inner {
         width: 738px;
     }
-}
-
-/*.support-circle {
-    display: inline-table;
-    margin-bottom: 55px;
-    padding-left: 6%;
-}*/
-
-
-}
-
-#html-load2 {
-    margin-top: -137px;
-}
-
-#css-load2 {
-    margin-top: -150px;
-}
-
-#js-load2 {
-    margin-top: -165px;
-}
-
-#py-load2 {
-    margin-top: -145px;
-}
-
-#dj-load2 {
-    margin-top: -109px;
 }
 
 
@@ -686,22 +642,12 @@ a {
     background-color: transparent;
 }
 
-.wechat_btn {
-  padding: 20px 0;
-  border-radius: 50%;
-  font-size: 34px;
-  width: 54px;
-  height: 54px;
-  line-height: 18px;
-}
-
 .alignment {
     line-height: 2px;
 }
 
 i {
     display: inline-block;
-
     background-color: #C3C3C3;
     color: #8F8F8F;
     width: 41px;
@@ -716,7 +662,6 @@ i {
     -webkit-transition: all .3s ease-in-out;
     margin-top: 2.5px;
     margin-bottom: 2.5px;
-
 }
 
 i:hover {
@@ -733,10 +678,7 @@ i:hover {
 
 
 /* ----------Quiz Modal --------*/
-/*
-.quiz-modal {
-  z-index: 1041;
-}*/
+
 .quiz-modal-body {
   background-color: #fff;
 }
@@ -804,9 +746,6 @@ a.privacy-policy:hover {
 
 }
 
-
-
-
 @media (max-width: 992px) {
     #contact, #learn, #landing-view{
         background-attachment: scroll;
@@ -826,8 +765,6 @@ a.privacy-policy:hover {
         background-size: cover;
         width: 100vw;
     }
-
-
 }
 @media (max-height: 667px) {
   .friendly-mob {
