@@ -473,7 +473,7 @@ h2 {
     line-height: 18px;
 }
 
-.github-icon {
+.sound-icon {
     padding: 20px 0;
     border-radius: 50%;
     font-size: 36px;
@@ -489,6 +489,12 @@ h2 {
     width: 54px;
     height: 54px;
     line-height: 14px;
+}
+
+/*-------iframe--------------*/
+.iframe {
+  border-color: transparent;
+  width: 100%;
 }
 
 /*-------video---------------*/
@@ -736,9 +742,9 @@ a.privacy-policy:hover {
     .scroll-learn {
         width: 80%;
     }
-    .fa-chevron-down {
+/*    .fa-chevron-down {
         margin-top: 52vh;
-    }
+    }*/
 
 }
 
