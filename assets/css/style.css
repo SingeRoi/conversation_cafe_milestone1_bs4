@@ -180,15 +180,13 @@ h1 {
     -moz-filter: drop-shadow(4px 4px 5px rgba(0,0,0,0.5));
     -ms-filter: drop-shadow(4px 4px 5px rgba(0,0,0,0.5));
     -o-filter: drop-shadow(4px 4px 5px rgba(0,0,0,0.5));
-
+}
 
 p {
     display: inline-block;
-    margin:15px 0 2em 85px;
     font-style:italic;
     position: relative;
-    top: 200px;
-    left: 200px;
+
 }
 
 .bubble:after, .bubble:before {
@@ -199,16 +197,16 @@ p {
     position: absolute;
     right: 25px;
 }
-}
+/* } */
 
 /**********speech box paras-------------*/
 
 p {
-	/*/ layout*/
+	/* layout*/
 	position: relative;
 	max-width: 55em;
 
-	/*/ looks*/
+	/* looks*/
 	background-color: rgba(0, 176, 194, 0.5);/*rgba(0, 0, 199, 0.5);/*#00b0c2;*/
   color: rgba(0, 91, 171, 1);
 	padding: 1.125em 1.5em;
@@ -217,7 +215,7 @@ p {
 }
 
 p::before {
-	/*/ layout**/
+	/* layout */
 	content: '';
 	position: absolute;
 	width: 0;
