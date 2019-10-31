@@ -3,13 +3,19 @@
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="assets/css/crossword_style.css" type="text/css" />
+      <title>Crossword for The Conversation Cafe Milestone 1</title>
 </head>
 <body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-4 col-sm-6">
 
-<input type="checkbox" name="checkvaliditems" id="checkvaliditems" />
+
+          <input type="checkbox" name="checkvaliditems" id="checkvaliditems" />
 <label for="checkvaliditems">Check for valid squares</label>
 
 <div class="crossword-board-container">
@@ -130,8 +136,8 @@
       <!-- ROW 8 -->
       <input id="item8-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[sS]{1}$" required="required" value="" />
       <input id="item8-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[kK]{1}$" required="required" value="" />
-         <input id="item8-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[iI]{1}$" required="required" value="" />
-	<input id="item8-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[rR]{1}$" required="required" value="" />
+      <input id="item8-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[iI]{1}$" required="required" value="" />
+ 	    <input id="item8-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[rR]{1}$" required="required" value="" />
       <input id="item8-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[tT]{1}$" required="required" value="" />
       <input id="item8-6" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[sS]{1}$" required="required" value="" />
       <span class="crossword-board__item--blank" id="item8-7"></span>
@@ -155,7 +161,7 @@
       <span class="crossword-board__item--blank" id="item9-9"></span>
       <input id="item9-10" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[eE]{1}$" required="required" value="" />
       <span class="crossword-board__item--blank" id="item9-11"></span>
-      <input id="item5-13" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[iI]{1}$" required="required" value="" />
+      <input id="item9-12" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[iI]{1}$" required="required" value="" />
       <span class="crossword-board__item--blank" id="item9-13"></span>
       <!-- ROW 9 -->
 
@@ -283,7 +289,8 @@
 			<span id="label-24" class="crossword-board__item-label crossword-board__item-label--24"><span class="crossword-board__item-label-text">24</span></span>
 
 		</div>
-
+</div>
+ <div class="col-sm-4">
 		<div class="crossword-clues">
 
 			<dl class="crossword-clues__list crossword-clues__list--across">
@@ -321,7 +328,8 @@
 			</dl>
 
 		</div>
-
+    <div class="row"></div>
+</div>
 		<div class="crossword-complete">
 		well done, champ!
 		</div>
@@ -329,4 +337,9 @@
 	</div>
 
 </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>

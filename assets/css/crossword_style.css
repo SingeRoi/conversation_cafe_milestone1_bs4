@@ -1,3 +1,8 @@
+.container-fluid {
+  display: inline-block;
+
+}
+
 .crossword-board-container {
   position: relative;
   background: #FFFFFF;
