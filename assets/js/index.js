@@ -1,36 +1,23 @@
 // Delayed scrolling to different sections of the page
-// Modified from a tutorial found at
-// https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2
+// modified from https://bootsnipp.com/snippets/6Xg2d 
 
-/*
-$('a[href^="#"]').on('click', function(event) {
+$(document).ready(function(){
+ let scroll_link = $('.scroll');
 
-    var target = $(this.getAttribute('href'));
-
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
-
+  //smooth scrolling -----------------------
+  scroll_link.click(function(e){
+      e.preventDefault();
+      let url = $('body').find($(this).attr('href')).offset().top;
+      $('html, body').animate({
+        scrollTop : url
+      },1700);
+      $(this).parent().addClass('active');
+      $(this).parent().siblings().removeClass('active');
+      return false;
+   });
 });
 
-$('#contact-form').on('submit', function(e) {
-    $('#contactFormModal').modal('show');
-    e.preventDefault();
-})
-
-$(function(){
-    var loading = $('#loadbar').hide();
-    $(document)
-    .ajaxStart(function () {
-        loading.show();
-    }).ajaxStop(function () {
-    	loading.hide();
-    });
-
-*/
+//  quiz from       to run in modal
 
 /** <quiz script> **/
 var quiztitle = "PostSecret English Quiz";
