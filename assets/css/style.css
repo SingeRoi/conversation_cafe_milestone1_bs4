@@ -470,6 +470,7 @@ h2 {
     width: 54px;
     height: 54px;
     line-height: 18px;
+    background-color:rgba(255, 104, 135, .4);
 }
 
 .sound-icon {
@@ -479,6 +480,7 @@ h2 {
     width: 54px;
     height: 54px;
     line-height: 14px;
+    background-color:rgba(255, 104, 135, .4);
 }
 
 .question-icon {
@@ -488,6 +490,7 @@ h2 {
     width: 54px;
     height: 54px;
     line-height: 14px;
+    background-color:rgba(255, 104, 135, .4);
 }
 
 /*-------iframe--------------*/
@@ -645,6 +648,7 @@ a {
 
 .alignment {
     line-height: 2px;
+    background-color:rgba(255, 104, 135, .4);
 }
 
 i {
