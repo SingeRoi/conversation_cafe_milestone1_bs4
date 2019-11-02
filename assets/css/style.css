@@ -754,6 +754,7 @@ a.privacy-policy:hover {
 @media (max-width: 992px) {
     #contact, #learn, #landing-view{
         background-attachment: scroll;
+        /*fixees background blur for iOS Chrome & Safari users*/
     }
 }
 

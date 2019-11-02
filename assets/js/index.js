@@ -1,5 +1,5 @@
 // Delayed scrolling to different sections of the page
-// modified from https://bootsnipp.com/snippets/6Xg2d 
+// modified from https://bootsnipp.com/snippets/6Xg2d
 
 $(document).ready(function(){
  let scroll_link = $('.scroll');
