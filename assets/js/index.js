@@ -17,6 +17,9 @@ $(document).ready(function(){
    });
 });
 
+  //smooth scrolling end-----------------------
+
+
 //  quiz from       to run in modal
 
 /** <quiz script> **/
