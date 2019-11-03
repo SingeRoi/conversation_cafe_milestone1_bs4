@@ -407,6 +407,10 @@ h2 {
     margin-bottom: 0px;
 }
 
+.learn-row {
+  margin-top: -10%;
+}
+
 .card-body .row {
     text-align: center;
 }
