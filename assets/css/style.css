@@ -408,7 +408,7 @@ h2 {
 }
 
 .learn-row {
-  margin-top: -10%;
+  margin-top: -5%;
 }
 
 .card-body .row {
@@ -746,12 +746,10 @@ a.privacy-policy:hover {
 }
 
 @media (max-width: 768px) and (min-width: 375px) {
-    .scroll-learn {
-        width: 80%;
+
+    .learn-row {
+      margin-left: -25px;
     }
-/*    .fa-chevron-down {
-        margin-top: 52vh;
-    }*/
 
 }
 
