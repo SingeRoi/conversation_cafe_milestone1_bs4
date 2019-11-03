@@ -506,7 +506,7 @@ position: relative;
 max-width: 30em;
 background-color: rgba(0, 176, 194, 0.5);
 color: rgba(0, 91, 171, 1);
-padding: .125em 1.35em;
+padding: .05em 1.35em .145em 1.35em;
 font-size: 1.25em;
 border-radius: 1rem;
 }
