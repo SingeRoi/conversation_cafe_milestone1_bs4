@@ -751,6 +751,15 @@ a.privacy-policy:hover {
       margin-left: -25px;
     }
 
+    #learn{
+    text-align: center;
+}
+    #learn <yourChildrenId/yourChildrenClass/yourChildrenTag>{
+    display: inline-block;
+    //or
+    display: inline;
+}
+
 }
 
 @media (max-width: 992px) {
