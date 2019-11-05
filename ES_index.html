@@ -2,10 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="initial-scale=1.0">
-
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
@@ -20,7 +19,8 @@
     <header class="jumbotron jumbotron-fluid" id="landing-view">
       <div class="container-fluid">
 
-      <nav class="navbar float-right navbar-expand-sm navbar-light bg-faded sticky-top">
+      <nav class="navbar float-right navbar-expand-sm navbar-light bg-faded fixed-top">
+        <div class="container">
         <div class="btn-group float-right">
           <button type="button" class="btn btn-secondary dropdown-toggle language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Hablo
@@ -31,38 +31,35 @@
             <a class="dropdown-item language" href="ES_index.html">Espagnol</a>
             <a class="dropdown-item language" href="MA_index.html">中国</a>
           </div>
-
-
-        <button class="navbar-toggler" type="button" data-toggle="dropdown" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-                 <i class="fas fa-bars"></i>
-        </button>
-
-        <!-- Links -->
-        <div class="dropdown-menu dropdown-menu-right" id="nav-content">
-        <ul class="navbar-nav">
-        <li class="nav-item"><a class="dropdown-item page-scroll" href="#about">Sobre</a></li>
-        <li class="nav-item"><a class="dropdown-item page-scroll" href="#learn">Aprender</a></li>
-        <li class="nav-item"><a class="dropdown-item page-scroll" href="#support">Soporte</a></li>
-        <li class="nav-item"><a class="dropdown-item page-scroll" href="#contact">Contactar</a></li>
-
-        </ul>
+          <button class="navbar-toggler" type="button" data-toggle="dropdown" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+             <i class="fas fa-bars"></i>
+          </button>
+          <!-- Links -->
+          <div class="dropdown-menu dropdown-menu-right" id="nav-content">
+             <ul class="navbar-nav">
+             <li class="nav-item"><a class="dropdown-item page-scroll" href="#about">Sobre</a></li>
+             <li class="nav-item"><a class="dropdown-item page-scroll" href="#learn">Aprender</a></li>
+             <li class="nav-item"><a class="dropdown-item page-scroll" href="#support">Soporte</a></li>
+             <li class="nav-item"><a class="dropdown-item page-scroll" href="#contact">Contactar</a></li>
+             </ul>
+            </div>
+         </div>
+      </div>
+   </nav>
+</div>
+<div class="container top">
+   <div class="speech-bubble">
+        <h1 class="wide-title">The Conversation Café</h1>
+        <h3 class="friendly">El lugar amigable y divertido para practicar inglés</h3>
+   </div>
+   <div class="speech-vertical">
+        <div><h2 class="first">The</h2></div>
+             <h2 class="vertical-text">Conversation</h2>
+             <h2 class="second">Café</h2>
+             <h3 class="friendly-mob">El lugar amigable y divertido para practicar inglés</h3>
         </div>
-      </div>
-    </nav>
-  </div>
-  <div class="container top">
-     <div class="speech-bubble">
-            <h1 class="wide-title">The Conversation Café</h1>
-            <h3 class="friendly">El lugar amigable y divertido para practicar inglés</h3>
-     </div>
-     <div class="speech-vertical">
-              <div><h2 class="first">The</h2></div>
-              <h2 class="vertical-text">Conversation</h2>
-              <h2 class="second">Café</h2>
-              <h3 class="friendly-mob">El lugar amigable y divertido para practicar inglés</h3>
-      </div>
-  </div>
-  </header>
+   </div>
+   </header>
 
     <!--*******ABOUT US*******-->
     <section id="about-us">
@@ -70,7 +67,7 @@
             <div class="row" id='about'>
                 <h2>Sobre</h2>
             </div>
-            <div class=" col-sm-6">
+            <div class="col-sm-6">
                 <p class="about-p">¿Qué hacemos? - Nos reunimos semanalmente para practicar nuestro inglés en un cafe segura, gratuita y amigable. </p>
                 <p class="about-p d-none d-sm-block">¿Qué pasa? - Charlamos, jugamos, estudiamos y aprendemos juntos para mejorar nuestro inglés y hacer nuevos amigos.</p>
             </div>
@@ -80,11 +77,10 @@
     <!--***********learn********-->
     <section class="jumbotron"  id="learn">
         <div class="container scroll-learn" >
-          <div class="row" >
+          <div class="row learn-row" >
               <h2>Aprendar</h2>
           </div>
           <div class="card-deck">
-
             <div class="col-6 col-sm-4 project-cards">
                <div class="card">
                   <div class="card-body">
@@ -110,7 +106,7 @@
                         <h5 class="card-title">Watch & take a quiz</h5>
                         <h6 class="card-subtitle mb-2 text-muted">TED Talk Half a Million Secrets</h6>
                         <p class="card-text video-p">
-                          <video width="180" height="135">
+                          <video width="180" height="135 controls">
                             <source src="https://ossattachment.likeshuo.com/courseware/o_1dfuvtohf19n9pc6qvbut219rne.mp4?Expires=1595974590&OSSAccessKeyId=LTAIBZJCQccTiSLS&Signature=znPBz6%2BCiC9KseFCBPRfCdo0HUQ%3D" type="video/mp4">
                               <source src="movie.ogg" type="video/ogg">
                                 Your browser does not support the video tag.
@@ -154,11 +150,11 @@
         <div class="col-6 col-sm-4 project-cards">
            <div class="card">
               <div class="card-body">
-                        <h5 class="card-title">Learn with a song </h5>
-                        <h6 class="card-subtitle mb-2 text-muted">'Waterloo Sunset' performed by Ty Segall</h6>
-                        <p class="card-text">
-                          <iframe class="iframe" height="136" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303719236&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                          </p>
+                 <h5 class="card-title">Learn with a song </h5>
+                 <h6 class="card-subtitle mb-2 text-muted">'Waterloo Sunset' performed by Ty Segall</h6>
+                 <p class="card-text">
+                 <iframe class="iframe" height="136" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303719236&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                 </p>
               </div>
                   <div class="card-footer">
                      <div class="d-flex justify-content-around">
@@ -197,7 +193,7 @@
                 <h5 class="card-title">Watch & do a crossword</h5>
                 <h6 class="card-subtitle mb-2 text-muted">TED Talk Forget Shopping</h6>
                     <p class="card-text video-p">
-                    <video width="180" height="135">
+                    <video width="180" height="135 controls">
                     <source src="https://ossattachment.likeshuo.com/courseware/o_1dfuvtohf1eme1oaj18r41n2ephvg.mp4?Expires=1596619934&OSSAccessKeyId=LTAIBZJCQccTiSLS&Signature=%2FNgS4sYaZD3dtmDvpHWqMUMlAyY%3D" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
                     Your browser does not support the video tag.
@@ -210,7 +206,6 @@
                         <a href="https://ossattachment.likeshuo.com/courseware/o_1dfuvtohf1eme1oaj18r41n2ephvg.mp4?Expires=1596619934&OSSAccessKeyId=LTAIBZJCQccTiSLS&Signature=%2FNgS4sYaZD3dtmDvpHWqMUMlAyY%3D" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
                         <!-- Button HTML (to go to crossword) -->
                         <a href="crossword_index.html"  target="_blank" class="btn btn-sm"><i class="fas fa-edit question-icon"></i></a>
-
                     </div>
                  </div>
               </div>
@@ -260,17 +255,16 @@
                           </div>
                         </div>
                       </div>
-                     </div>
-                  </div>
+                   </div>
                 </div>
+             </div>
 
-                <div class="col-6 col-sm-4 support-cards">
-                  <div class="card">
-                    <div  class="card-body">
+             <div class="col-6 col-sm-4 support-cards">
+                <div class="card">
+                   <div  class="card-body">
                       <h5 class="card-title">Donate</h5>
                       <h6 class="card-subtitle mb-2 text-muted">No time to spare? Please make a donation via The Good Exchange</h6>
                       <p class="card-text">The cafe is free to users so we need funds to cover food & drink, volunteer travel and other costs.</p>
-                          <!--  <p class="html">https://thegoodexchange.com/</p> -->
                     </div>
                     <div class="card-footer support-footer">
                       <div class="d-flex justify-content-around">
@@ -280,13 +274,13 @@
                           </div>
                         </div>
                       </div>
-                     </div>
-                  </div>
+                   </div>
                 </div>
+             </div>
 
-                <div class="col-6 col-sm-4 support-cards">
-                  <div class="card">
-                    <div  class="card-body">
+             <div class="col-6 col-sm-4 support-cards">
+                <div class="card">
+                   <div  class="card-body">
                       <h5 class="card-title">Food & drink</h5>
                       <h6 class="card-subtitle mb-2 text-muted"> Do you enjoy baking and sharing? </h6>
                       <p class="card-text"> We welcome donations of vegan bread, cakes, biscuits or tea & coffee. Bring them along or contact us to collect.</p>
@@ -299,7 +293,7 @@
                           </div>
                         </div>
                       </div>
-                     </div>
+                    </div>
                   </div>
                 </div>
 
@@ -319,12 +313,12 @@
                            </div>
                          </div>
                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
     </section>
     <!--*****CONTACT*****-->
     <section class="jumbotron scroll" id="contact">
@@ -357,8 +351,6 @@
                 </form>
             </div>
         </div>
-
-
     </section>
     <!--*****FOOTER******-->
     <footer>
@@ -373,15 +365,14 @@
                     <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp alignment"></i></a>
                     <a href="https://www.google.com/maps/place/The+Poly/@50.1542475,-5.0742944,15z/data=!4m5!3m4!1s0x0:0x5009de3c8e65c7fe!8m2!3d50.1537526!4d-5.0681146" target="_blank"><i class="fas fa-map-marked alignment"></i></a>
                </div>
-
             </div>
-        </div>
+         </div>
     </footer>
     <!-- *******CONTACT FORM MODAL******* -->
     <div class="modal" tabindex="-1" role="dialog" id='contactFormModal'>
         <br><br><br><br><br>
         <div class="modal-dialog" role="document">
-            <br><br><br>
+            <br><br><br><br><br>
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" style='text-align: right;' aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -390,7 +381,6 @@
                 <div class="contact-modal-body">
                     <p class="header"> Sobre este formulario de contacto:</p>
                         <p>Actualmente, este formulario de contacto no envía mensajes ni recopila información personal. Además, este sitio no recopila ningún dato personal. Consulte la <a class="privacy-policy" href="privacy_policy.html"> política de privacidad </a> para obtener más detalles.</p>
-
                     <div class="modal-footer">
                         <button class="btn btn-md btn-secondary" data-dismiss="modal">Yo Comprende!</button>
                     </div>
@@ -398,11 +388,9 @@
             </div>
         </div>
     </div>
-<!--  converted at https://www.prepbootstrap.com/converter -->
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="assets/js/index.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
 </html>
