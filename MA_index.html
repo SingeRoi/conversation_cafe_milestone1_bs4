@@ -2,10 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="initial-scale=1.0">
-
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
@@ -16,53 +15,48 @@
 </head>
 
 <body>
-    <!--********TOP JUMBOTRON/NAVBAR********-->
-    <header class="jumbotron jumbotron-fluid" id="landing-view">
-      <div class="container-fluid">
-
-      <nav class="navbar float-right navbar-expand-sm navbar-light bg-faded sticky-top">
-        <div class="btn-group float-right">
-          <button type="button" class="btn btn-secondary dropdown-toggle language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<!--********TOP JUMBOTRON/NAVBAR********-->
+<header class="jumbotron jumbotron-fluid" id="landing-view">
+   <div class="container-fluid">
+      <nav class="navbar float-right navbar-expand-sm navbar-light bg-faded fixed-top">
+         <div class="btn-group ml-auto float-right">
+           <button type="button" class="btn btn-secondary dropdown-toggle language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             我说
-          </button>
-          <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item language" href="index.html">English</a>
-            <a class="dropdown-item language" href="FR_index.html">Française</a>
-            <a class="dropdown-item language" href="ES_index.html">Espagnol</a>
-            <a class="dropdown-item language" href="MA_index.html">中国</a>
-          </div>
-
-
-        <button class="navbar-toggler" type="button" data-toggle="dropdown" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+           </button>
+           <div class="dropdown-menu dropdown-menu-right">
+             <a class="dropdown-item language" href="index.html">English</a>
+             <a class="dropdown-item language" href="FR_index.html">Française</a>
+             <a class="dropdown-item language" href="ES_index.html">Espagnol</a>
+             <a class="dropdown-item language" href="MA_index.html">中国</a>
+           </div>
+           <button class="navbar-toggler" type="button" data-toggle="dropdown" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
                  <i class="fas fa-bars"></i>
-        </button>
-
-        <!-- Links -->
-        <div class="dropdown-menu dropdown-menu-right" id="nav-content">
-        <ul class="navbar-nav">
-        <li class="nav-item"><a class="dropdown-item page-scroll" href="#about">关于</a></li>
-        <li class="nav-item"><a class="dropdown-item page-scroll" href="#learn">学习</a></li>
-        <li class="nav-item"><a class="dropdown-item page-scroll" href="#support">支持</a></li>
-        <li class="nav-item"><a class="dropdown-item page-scroll" href="#contact">联系</a></li>
-
-        </ul>
+           </button>
+           <!-- Links -->
+           <div class="dropdown-menu dropdown-menu-right" id="nav-content">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="dropdown-item page-scroll" href="#about">关于</a></li>
+              <li class="nav-item"><a class="dropdown-item page-scroll" href="#learn">学习</a></li>
+              <li class="nav-item"><a class="dropdown-item page-scroll" href="#support">支持</a></li>
+              <li class="nav-item"><a class="dropdown-item page-scroll" href="#contact">联系</a></li>
+            </ul>
+           </div>
         </div>
-      </div>
-    </nav>
-  </div>
-  <div class="container top">
-     <div class="speech-bubble">
+      </nav>
+   </div>
+   <div class="container top">
+      <div class="speech-bubble">
             <h1 class="wide-title">The Conversation Café</h1>
             <h3 class="friendly">一个友好有趣的地方练习英语</h3>
-     </div>
-     <div class="speech-vertical">
-              <div><h2 class="first">The</h2></div>
-              <h2 class="vertical-text">Conversation</h2>
-              <h2 class="second">Café</h2>
-              <h3 class="friendly-mob">一个友好有趣的地方练习英语</h3>
+      </div>
+      <div class="speech-vertical">
+         <div><h2 class="first">The</h2></div>
+            <h2 class="vertical-text">Conversation</h2>
+            <h2 class="second">Café</h2>
+            <h3 class="friendly-mob">一个友好有趣的地方练习英语</h3>
       </div>
   </div>
-  </header>
+</header>
 
     <!--*******ABOUT US*******-->
     <section id="about-us">
@@ -75,12 +69,11 @@
                 <p class="about-p d-none d-sm-block">有些什么内容？ -我们聊天，玩游戏，一起研究和学习，以提高英语水平并结识新朋友。</p>
             </div>
         </div>
-
     </section>
     <!--***********learn********-->
     <section class="jumbotron"  id="learn">
         <div class="container scroll-learn" >
-          <div class="row" >
+          <div class="row learn-row" >
               <h2>学习</h2>
           </div>
           <div class="card-deck">
@@ -110,7 +103,7 @@
                         <h5 class="card-title">Watch & take a quiz</h5>
                         <h6 class="card-subtitle mb-2 text-muted">TED Talk Half a Million Secrets</h6>
                         <p class="card-text video-p">
-                          <video width="180" height="135">
+                          <video width="180" height="135" controls>
                             <source src="https://ossattachment.likeshuo.com/courseware/o_1dfuvtohf19n9pc6qvbut219rne.mp4?Expires=1595974590&OSSAccessKeyId=LTAIBZJCQccTiSLS&Signature=znPBz6%2BCiC9KseFCBPRfCdo0HUQ%3D" type="video/mp4">
                               <source src="movie.ogg" type="video/ogg">
                                 Your browser does not support the video tag.
@@ -197,7 +190,7 @@
                 <h5 class="card-title">Watch & do a crossword</h5>
                 <h6 class="card-subtitle mb-2 text-muted">TED Talk Forget Shopping</h6>
                     <p class="card-text video-p">
-                    <video width="180" height="135">
+                    <video width="180" height="135" controls>
                     <source src="https://ossattachment.likeshuo.com/courseware/o_1dfuvtohf1eme1oaj18r41n2ephvg.mp4?Expires=1596619934&OSSAccessKeyId=LTAIBZJCQccTiSLS&Signature=%2FNgS4sYaZD3dtmDvpHWqMUMlAyY%3D" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
                     Your browser does not support the video tag.
@@ -248,9 +241,9 @@
                 <div class="col-6 col-sm-4 support-cards">
                   <div class="card">
                     <div  class="card-body">
-                      <h5 class="card-title">Volunteer</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Anyone can volunteer with us</h6>
-                      <p class="card-text">Help others learn, help with refreshments, help tidy up or just help by chatting. Any time you can contribute helps.</p>
+                      <h5 class="card-title">志愿服务</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">任何人都可以与我们志愿服务</h6>
+                      <p class="card-text">帮助其他人学习，提供茶点帮助，整理衣服或只是聊天来帮助。任何时候您都可以提供帮助。</p>
                     </div>
                     <div class="card-footer support-footer">
                       <div class="d-flex justify-content-around">
@@ -267,9 +260,9 @@
                 <div class="col-6 col-sm-4 support-cards">
                   <div class="card">
                     <div  class="card-body">
-                      <h5 class="card-title">Donate</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">No time to spare? Please make a donation via The Good Exchangee</h6>
-                      <p class="card-text">The cafe is free to users so we need funds to cover food & drink, volunteer travel and other costs.</p>
+                      <h5 class="card-title">捐</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">没有空余时间？请通过The Good Exchange捐款</h6>
+                      <p class="card-text">咖啡馆对用户免费，因此我们需要资金来支付餐饮，志愿者旅行和其他费用。</p>
                           <!--  <p class="html">https://thegoodexchange.com/</p> -->
                     </div>
                     <div class="card-footer support-footer">
@@ -287,9 +280,9 @@
                 <div class="col-6 col-sm-4 support-cards">
                   <div class="card">
                     <div  class="card-body">
-                      <h5 class="card-title">Food & drink</h5>
-                      <h6 class="card-subtitle mb-2 text-muted"> Do you enjoy baking and sharing? </h6>
-                      <p class="card-text"> We welcome donations of vegan bread, cakes, biscuits or tea & coffee. Bring them along or contact us to collect.</p>
+                      <h5 class="card-title">食物和饮料</h5>
+                      <h6 class="card-subtitle mb-2 text-muted"> 您喜欢烘烤和分享吗？ </h6>
+                      <p class="card-text"> 我们欢迎捐赠纯素食面包，蛋糕，饼干或茶和咖啡。带他们过来或联系我们收集。</p>
                     </div>
                     <div class="card-footer support-footer">
                       <div class="d-flex justify-content-around">
@@ -306,9 +299,9 @@
                 <div class="col-6 col-sm-4 support-cards">
                   <div class="card">
                     <div  class="card-body">
-                      <h5 class="card-title">Books & games</h5>
-                      <h6 class="card-subtitle mb-2 text-muted"> Unwanted English language games or books? </h6>
-                      <p class="card-text"> Our learners really value gifts of games or books. Bring them along or contact us to collect.</p>
+                      <h5 class="card-title">书籍和游戏</h5>
+                      <h6 class="card-subtitle mb-2 text-muted"> 不需要的英语游戏或书籍？ </h6>
+                      <p class="card-text"> 我们的学习者非常重视游戏或书籍的礼物。带他们过来或联系我们收集。</p>
                      </div>
                      <div class="card-footer support-footer">
                        <div class="d-flex justify-content-around">
