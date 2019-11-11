@@ -1,21 +1,32 @@
 // Delayed scrolling to different sections of the page
+
+//another scrolling from https://stackoverflow.com/questions/49173297/bootstrap-4-smooth-scrolling-working-on-nav-link-but-not-on-other-anchor-eleme/49173734
+  /* $('.dropdown-item, .nav-link, .navbar-brand, .new-button').click(function() {
+    var sectionTo = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(sectionTo).offset().top
+    }, 1500);
+}); */
+
+
 // modified from https://bootsnipp.com/snippets/6Xg2d
 
-$(document).ready(function(){
+/*$(document).ready(function(){
  let scroll_link = $('.scroll');
 
+
   //smooth scrolling -----------------------
-  scroll_link.click(function(e){
+ scroll_link.click(function(e){
       e.preventDefault();
       let url = $('body').find($(this).attr('href')).offset().top;
       $('html, body').animate({
         scrollTop : url
-      },1700);
+      },1000);
       $(this).parent().addClass('active');
       $(this).parent().siblings().removeClass('active');
       return false;
    });
-});
+}); */
 
   //smooth scrolling end-----------------------
 
