@@ -695,16 +695,24 @@ i {
 }
 
 i:hover {
-    color: #564F6F;
+    color: rgba(0, 176, 194, 0.5);
+      /*color: #564F6F;*/
 }
 .fa-bars:hover {
     color: #fff;
     background-color: rgba(0, 176, 194, 0.5);
+          border:none;
   }
-  .fa-bars::after {
+
+
+}
+
+.fa-bars::after {
       color: #fff;
-      background-color: #564F6F;
-    }
+      /*background-color: #564F6F;*/
+      background-color: rgba(0, 176, 194, 0.5);
+
+  }
 
 
 /* ----------Quiz Modal --------*/
