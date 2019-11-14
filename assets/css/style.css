@@ -38,8 +38,8 @@ h1 {
 
 .fixed-top .container {
     text-align: right;
-    margin-right: 1%;
     margin-top: 1%;
+    "margin-right: 0px;padding-right: 0px;padding-left: 0px;margin-left: 0px
 }
 
 .btn-secondary {
@@ -355,10 +355,11 @@ i:hover {
     background-image: url('../images/landing1.jpg');
     background-position: bottom;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     margin-bottom: 0px;
     z-index: 1;
+    overflow-x: hidden
 }
 
 .top {
@@ -398,6 +399,7 @@ h3 {
     padding-bottom: 10%;
     font-size: 1.75em;
     line-height: 2;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -419,7 +421,7 @@ h2 {
     background-image: url('../images/fun.jpg');
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     padding-bottom: 50px;
     background-repeat: no-repeat;
     position: relative;
@@ -634,11 +636,17 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
     background-image: url('../images/talk.jpg');
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     padding-bottom: 100px;
     padding-top: 42px;
+    padding-right: 0px;
     text-align: left;
     margin-bottom: 30px;
+
+}
+
+.contact-container {
+  display:inline-flex;
 }
 
 .contact-form {
@@ -647,7 +655,8 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
 }
 
 #contact-head {
-    margin: 30px -11px 25px 0px;
+  /*  margin: 0px 0px 25px 0px;*/
+    padding-left: 50px;
 }
 
 .contact {
@@ -695,12 +704,12 @@ i {
 }
 
 i:hover {
-    color: rgba(0, 176, 194, 0.5);
+    color: rgba(0, 176, 194, 1);
       /*color: #564F6F;*/
 }
 .fa-bars:hover {
     color: #fff;
-    background-color: rgba(0, 176, 194, 0.5);
+    background-color: rgba(0, 176, 194, 1);
           border:none;
   }
 
@@ -771,6 +780,9 @@ a.privacy-policy:hover {
   .container-fluid {
     margin-top: -10%;
 }
+.contact-container {
+    display: inline-block;
+}
 
 }
 
@@ -794,7 +806,7 @@ a.privacy-policy:hover {
 @media (max-width: 992px) {
     #contact, #learn, #landing-view{
         background-attachment: scroll;
-        /*fixes background blur for iOS Chrome & Safari users*/
+        /*fixes background blur for iOS Chrome & Safari users?*/
     }
 }
 
@@ -803,13 +815,14 @@ a.privacy-policy:hover {
         background-image: url('../images/conversation.jpg');
         background-position: center;
         background-size: cover;
-        width: 100vw;
+        width: 100%;
+        overflow-x: hidden;
     }
     #support {
         background-image: url('../images/support.jpg');
         background-position: center;
         background-size: cover;
-        width: 100vw;
+        width: 100%;
     }
 }
 @media (max-height: 667px) {
