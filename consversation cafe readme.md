@@ -38,7 +38,7 @@ The  experiences expected for different users (learners, volunteers, other volun
 
 If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. If all fields are valid, the page will reload. If an employer or recruiter is interested in contacting me, they will have to fill out all fields in order for the form to go through.
 
-Media are embedded in the site and can be played directly by pressing a play button (Soundcloud) or by right clicking on the video this minimises the need to open other windows on a mobile device and means that learners can receive the full experience without navigating away. It is also possible to open each media in a new tab using "target="_blank"" by clicking on the desktop icon. The quiz for the 'Half a million secrets' is executed as a modal and can be completed without leaving the Café site. Song lyrics are provided as links to pdf files and will download to your default folder for downloads on click using the 'download' attribute. The crossword is executed from a separate index and stylesheet to allow inclusion of new material it opens in a new tab when clicked. All links have been manually tested to ensure that they are pointing to the correct destination.
+Media are embedded in the site and can be played directly by pressing a play button (Soundcloud) or by right clicking on the video this minimises the need to open other windows on a mobile device and means that learners can receive the full experience without navigating away. It is also possible to open each media in a new tab by clicking on the desktop icon. The quiz for the 'Half a million secrets' is executed as a modal and can be completed without leaving the Café site. Song lyrics are provided as links to pdf files and will download to your default folder for downloads on click using the 'download' attribute. The crossword is executed from a separate index and stylesheet to allow inclusion of new material it opens in a new tab when clicked. All links have been manually tested to ensure that they are pointing to the correct destination.
 
 By clicking on the links in the navbar, the scrollSpy effect will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar.
 
@@ -53,8 +53,16 @@ As a result of these tests:
 - I also improved card alignment on iphone XL with solution from
 https://stackoverflow.com/questions/6072154/html-css-wrapper-is-not-center-aligned-in-iphone-safari
 
+The first deployed site was shared on slack #peer-code-review and I'm very grateful to [Alicja Malinkowska](https://app.slack.com/team/UML1GUKHU) for helpful comments. As a result of these I;
+  - changed all section widths to 100% and introduced overflow-x:hidden; in sections where horizontal overflow was occurring.
+  - revised the contact section to use flex properties to place the contact form on the right on large displays whist using a media query to make it sit inline vertically on small devices.
+  - changed transparency of text color in About, on small displays, and in Footer
+  - set a constant height for p elements in learning cards to give a consistent relationship to icon buttons
+  - changed transparency of background-color and changed color to #fff for learn and support icons
+
+
 two outstanding issues remains that:
- -  icon buttons left align instead of to thecentre on iOS Safari on an iPhone5 - this is not seen in simulations of this model.  
+ - icon buttons left align instead of to the centre on iOS Safari on a real iPhone5 - however this is not seen in simulations of this model.  
  - that the modal quiz does not run on some old models of iPad.
 
 
