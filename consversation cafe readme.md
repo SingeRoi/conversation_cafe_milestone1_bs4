@@ -73,7 +73,7 @@ Two outstanding issues remain that:
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone' [https://singeroi.github.io/conversation_cafe_milestone1_bs4/](https://singeroi.github.io/conversation_cafe_milestone1_bs4/)` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone [https://singeroi.github.io/conversation_cafe_milestone1_bs4/](https://singeroi.github.io/conversation_cafe_milestone1_bs4/)` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
 
 ## Credits
@@ -94,7 +94,7 @@ All photos were taken from [Pexels](https://www.pexels.com/), a stock image libr
  - The concept of parallax scrolling is demonstrated at
    [w3schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
 
-### Future Versions
+## Future Versions
 
  - The addition of a "what's on this week" section for current
    announcements would be a desirable feature.  
