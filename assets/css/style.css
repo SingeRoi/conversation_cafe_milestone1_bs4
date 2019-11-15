@@ -291,8 +291,8 @@ a {
     -webkit-transition: all .3s ease-in-out;
 }
 
-.
-.-toggler::before {
+/*.*/
+.navbar-toggler::before {
   color: rgba(0, 176, 194, 0.5);
   background-color: transparent;
   border-color: rgba(0, 176, 194, 0.5);
@@ -803,8 +803,8 @@ a.privacy-policy:hover {
 }
     #learn  {
     display: inline-block;
-    //or
-    display: inline;
+    /*or
+    display: inline;*/
 }
 
 }
