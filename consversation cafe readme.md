@@ -30,7 +30,10 @@ Scrolling is effected by use of the CSS Smooth-scroll attribute. The navbar also
 
 
 ### Features Left to Implement
-In the near future, I would like to effect slower scrolling but neither the JS script used by Haley Schafer nor any others that I have tried have worked with my code thus it may need a custom script or further trial. I would like also to improve the responsiveness of the crossword.
+In the near future, I would like to effect slower scrolling but neither the JS script used by Haley Schafer nor any others that I have tried have worked with my code thus it may need a custom script or further trial.
+- The scrollSpy delay JavaScript function was replaced by that  [at bootsnipp](https://bootsnipp.com/snippets/6Xg2d) amongst others but without effect on scroll speed.
+
+ I would like also to improve the responsiveness of the crossword, perhaps to implement it in a modal.
 
 
 ## Testing
@@ -40,7 +43,7 @@ If you try to submit the contact form with an invalid email address, there will 
 
 Media are embedded in the site and can be played directly by pressing a play button (Soundcloud) or by right clicking on the video this minimises the need to open other windows on a mobile device and means that learners can receive the full experience without navigating away. It is also possible to open each media in a new tab by clicking on the desktop icon. The quiz for the 'Half a million secrets' is executed as a modal and can be completed without leaving the Café site. Song lyrics are provided as links to pdf files and will download to your default folder for downloads on click using the 'download' attribute. The crossword is executed from a separate index and stylesheet to allow inclusion of new material it opens in a new tab when clicked. All links have been manually tested to ensure that they are pointing to the correct destination.
 
-By clicking on the links in the navbar, the scrollSpy effect will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar.
+By clicking on the navbar the links in will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar.
 
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, One+5) to ensure compatibility and responsiveness. A range of other devices were simulated using [Responsive DesignChecker.](https://responsivedesignchecker.com)
 As a result of these tests:
@@ -59,17 +62,18 @@ The first deployed site was shared on slack #peer-code-review and I'm very grate
   - changed transparency of text color in About, on small displays, and in Footer
   - set a constant height for p elements in learning cards to give a consistent relationship to icon buttons
   - changed transparency of background-color and changed color to #fff for learn and support icons
+  - changed color for footer text to #fff
 
 
-two outstanding issues remains that:
+Two outstanding issues remain that:
  - icon buttons left align instead of to the centre on iOS Safari on a real iPhone5 - however this is not seen in simulations of this model.  
- - that the modal quiz does not run on some old models of iPad.
+ - that the modal quiz content does not run on some old models of the iPad.
 
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone [https://singeroi.github.io/conversation_cafe_milestone1_bs4/](https://singeroi.github.io/conversation_cafe_milestone1_bs4/)` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone' [https://singeroi.github.io/conversation_cafe_milestone1_bs4/](https://singeroi.github.io/conversation_cafe_milestone1_bs4/)` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
 
 ## Credits
@@ -84,7 +88,6 @@ All photos were taken from [Pexels](https://www.pexels.com/), a stock image libr
 ### Acknowledgements
 
  - The inspiration for the parallax scrolling site came from the Milestone 1 portfolio site by [Haley Shafer](https://www.haleyschafer.com/). This has been substantially   modified to use Bootstrap 4.3.1 as well as to introduce almost  entirely new content.
- - The scrollSpy delay JavaScript function was replaced by that  [at bootsnipp](https://bootsnipp.com/snippets/6Xg2d) with an increased delay value.
  - The speech bubbles used in the site are modified from those described by[Auralinna](https://auralinna.blog/post/2017/how-to-make-a-css-speech-bubble-with-borders-and-drop-shadow) to make their appearance more streamlined and to suit the overall site style.
  - The modal quiz was devloped from that of  [Bobby Black](https://github.com/BobbyBLACK/JavaScript_QUIZ/blob/master/quiz.html). The content is entirely new and the styling was modified to make it fit this site as a modal popup.
  - The pure HTML and CSS crossword was inspired and modified from that of Adrian Roworth available [here](https://codepen.io/adrianroworth/pen/OpeyZq)
@@ -99,6 +102,7 @@ All photos were taken from [Pexels](https://www.pexels.com/), a stock image libr
  - Regular updating of learner content to include video/audio material generated by the café learners with addition of a separate page for a content archive to allow users to search for older materials.
 
  - An appropriate privacy policy needs to be written and uploaded - the café would want this to be done in open consultation with users.
+
  - The crossword should be reformatted to make it more responsive.
 
 
