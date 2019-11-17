@@ -444,6 +444,9 @@ h2 {
     display: inline-table;
     justify-content: center;
     align-items: center;
+/* --corrects overflow-x on iphone 5SE removes padding grid-framework scss:9 ----*/
+    padding-left: unset;
+    padding-right: unset;
 }
 
 .col-6 {
@@ -610,6 +613,9 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
     display: inline-table;
     justify-content: center;
     align-items: center;
+/* --corrects overflow-x on iphone 5SE removes padding grid-framework scss:9 ----*/
+    padding-left: unset;
+    padding-right: unset;
 }
 
 .support-footer{
