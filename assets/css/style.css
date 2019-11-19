@@ -6,6 +6,15 @@ body {
     background-color: #005bab;
     color: #ff915c;
     font-family: 'Nobile', sans-serif;
+    font-size: 100%;
+}
+h1, h2  {
+    /*font-family: 'Corben', Georgia, Times, serif;*/
+    /*font-family: 'Elsie', cursive;*/
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+h3, h4, h5, h6, p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -14,6 +23,7 @@ h1 {
 }
 .wide-title {
   color: #fff;
+  line-height: 1.7em;
 }
 .friendly {
   color: #fff;
@@ -43,6 +53,7 @@ h1 {
     padding-right: 0px;
     padding-left: 0px;
     margin-left: 0px;
+    max-width: 5000px;
 }
 
 .btn-secondary {
@@ -211,7 +222,7 @@ p {
 	/* looks*/
 	background-color: rgba(0, 176, 194, 0.7);
   color: rgba(0, 91, 171, 1);
-	padding: 1.125em 1.5em;
+	padding: 0.5em 1.5em;
 	font-size: 1.25em;
 	border-radius: 1rem;
 }
@@ -403,18 +414,21 @@ h3 {
     font-size: 1.75em;
     line-height: 2;
     overflow-x: hidden;
+    margin left: 15px;
 }
 
 h2 {
-    margin-left: 15px;
     margin-top: 2%;
-    letter-spacing: 7px;
     text-transform: uppercase;
+}
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .about-row .about-p {
     font-size: .8em;
-    margin: 40px 0px 40px 0px;
+    margin: 40px 15px 40px 15px;
 }
 
 /*------------learn----------*/
@@ -433,7 +447,8 @@ h2 {
 }
 
 .learn-row {
-  margin-top: -5%;
+    margin-top: -10%;
+    margin-left: -5px;
 }
 
 .card-body .row {
@@ -607,6 +622,8 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
 
 .support-inner {
     margin-bottom: 10%;
+  /*  margin-right: -15px;
+    margin-left: -15px;*/
 }
 
 .support-cards {
@@ -637,11 +654,20 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
 }
 
 @media (min-width: 768px) {
-    .support-inner {
-        width: 738px;
-    }
+  /*-----positions learn title on ipad----    */
+    .learn-row {
+      margin-left: 12px!important;
+  }
+  .h1 {
+    font-size: 80%;
+  }
 }
-
+@media (min-width: 1024px) {
+  /*-----positions learn title on ipad-pro----    */
+    .learn-row {
+      margin-top: -7%;;
+  }
+}
 
 /*-------CONTACT-----------*/
 
@@ -669,8 +695,7 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
 }
 
 #contact-head {
-  /*  margin: 0px 0px 25px 0px;*/
-    padding-left: 50px;
+    margin: -15px 0px 25px 0p
 }
 
 .contact {
@@ -769,6 +794,11 @@ a.privacy-policy:hover {
 
 /*-----------MEDIA QUERIES----------*/
 
+@media only screen and (max-width: 400px) {
+body { font-size:90%;}
+}
+
+
 @media (min-width: 675px) {
 .speech-bubble {
  display: inline-block;
@@ -804,13 +834,15 @@ a.privacy-policy:hover {
       margin-left: -25px;
     }
 
-    #learn{
+/*    #learn{
     text-align: center;
-}
+}*/
     #learn  {
     display: inline-block;
-    /*or
-    display: inline;*/
+}
+/*-----centers cards on iphone 6/7/8-------*/
+.card-deck {
+    margin-left: 25px;
 }
 
 }
@@ -844,4 +876,5 @@ a.privacy-policy:hover {
   .second {
     margin-bottom: -.3em;
   }
+
 }
