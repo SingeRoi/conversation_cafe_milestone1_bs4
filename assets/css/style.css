@@ -797,17 +797,20 @@ body { font-size:90%;}
 
 
 @media (min-width: 675px) {
-.speech-bubble {
+  .speech-bubble {
  display: inline-block;
     }
   .speech-vertical {
   display: none;
   }
-.container-fluid {
+  .container-fluid {
   margin-top: -5%;
 }
-
+  .flashcard {
+    padding-top: 1.35em;
+  }
 }
+
 @media (max-width: 674px) and (min-width: 300px) {
   .speech-bubble {
    display:none;
@@ -870,8 +873,8 @@ body { font-size:90%;}
   .friendly-mob {
     display:none;
   }
-  .second {
+/*  .second {
     margin-bottom: -.3em;
-  }
+  }*/
 
 }
