@@ -8,12 +8,7 @@ body {
     font-family: 'Nobile', sans-serif;
     font-size: 100%;
 }
-h1, h2  {
-    /*font-family: 'Corben', Georgia, Times, serif;*/
-    /*font-family: 'Elsie', cursive;*/
-    font-family: 'Nobile', Helvetica, Arial, sans-serif;
-}
-h3, h4, h5, h6, p, div {
+h1, h2, h3, h4, h5, h6, p, div  {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
 
@@ -682,7 +677,8 @@ img.question-image						{ width:100% !important; height:auto; display:block; max
     padding-right: 0px;
     text-align: left;
     margin-bottom: 30px;
-
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .contact-container {
