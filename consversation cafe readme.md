@@ -30,7 +30,7 @@ Scrolling is effected by use of the CSS Smooth-scroll attribute. The navbar also
 
 
 ### Features Left to Implement
-In the near future, I would like to effect slower scrolling but neither the JS script used by Haley Schafer nor any others that I have tried have worked with my code thus it may need a custom script or further trial.
+In the near future, I would like to effect slower scrolling but neither the JavaScript used by Haley Schafer nor any others that I have tried have worked with my code thus it may need a custom script or further trial.
 - The scrollSpy delay JavaScript function was replaced by that  [at bootsnipp](https://bootsnipp.com/snippets/6Xg2d) amongst others but without effect on scroll speed.
 
  I would like also to improve the responsiveness of the crossword, perhaps to implement it in a modal.
@@ -45,7 +45,7 @@ Media are embedded in the site and can be played directly by pressing a play but
 
 By clicking on the navbar the links in will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar.
 
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, One+5) to ensure compatibility and responsiveness. A range of other devices were simulated using [Responsive DesignChecker.](https://responsivedesignchecker.com)
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, One+5) to ensure compatibility and responsiveness. A range of other devices were simulated using [Responsive DesignChecker.](https://responsivedesignchecker.com) and [The Responsinator](https://www.responsinator.com/)
 As a result of these tests:
  - I found there was no video play option using Chrome this was fixed by specifically introducing 'control'  and then restyling the video position by adjusting padding.
 
@@ -53,11 +53,14 @@ As a result of these tests:
  - I also found that cards were slightly to right on pixel2XL in Chrome simulations.
  - To correct these issues I removed an 80%container width media query previously applying.
 
-- I also improved card alignment on iphone XL with solution from
-https://stackoverflow.com/questions/6072154/html-css-wrapper-is-not-center-aligned-in-iphone-safari
+- I also improved card alignment on iphone XL with a solution from [here]
+(https://stackoverflow.com/questions/6072154/html-css-wrapper-is-not-center-aligned-in-iphone-safari)
 
+Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UE through responsive design;
+
+### Peer Review
 The first deployed site was shared on slack #peer-code-review and I'm very grateful to [Alicja Malinkowska](https://app.slack.com/team/UML1GUKHU) for helpful comments. As a result of these I;
-  - changed all section widths to 100% and introduced overflow-x:hidden; in sections where horizontal overflow was occurring.
+  - changed all section widths to 100% and introduced overflow-x:hidden; in sections where horizontal overflow was occurri ng.
   - revised the contact section to use flex properties to place the contact form on the right on large displays whist using a media query to make it sit inline vertically on small devices.
   - changed transparency of text color in About, on small displays, and in Footer
   - set a constant height for p elements in learning cards to give a consistent relationship to icon buttons
@@ -93,6 +96,7 @@ All photos were taken from [Pexels](https://www.pexels.com/), a stock image libr
  - The pure HTML and CSS crossword was inspired and modified from that of Adrian Roworth available [here](https://codepen.io/adrianroworth/pen/OpeyZq)
  - The concept of parallax scrolling is demonstrated at
    [w3schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
+ - I am very grateful to my mentor Antonio Rodriguez [Antonio Rodriguez] (https://github.com/AkaAnto) for pointing out some failures in styling which I have since fixed.
 
 ## Future Versions
 

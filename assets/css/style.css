@@ -795,8 +795,8 @@ a.privacy-policy:hover {
 body { font-size:90%;}
 }
 
-
-@media (min-width: 675px) {
+@media (min-width: 992px)
+/*@media (min-width: 675px)*/ {
   .speech-bubble {
  display: inline-block;
     }
@@ -806,12 +806,17 @@ body { font-size:90%;}
   .container-fluid {
   margin-top: -5%;
 }
+
+}
+
+@media (min-width: 410px) {
   .flashcard {
     padding-top: 1.85em;
   }
 }
 
-@media (max-width: 674px) and (min-width: 300px) {
+@media (max-width: 991px) and (min-width: 300px)
+/*@media (max-width: 674px) and (min-width: 300px)*/ {
   .speech-bubble {
    display:none;
   }
