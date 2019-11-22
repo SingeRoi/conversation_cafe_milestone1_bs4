@@ -40,7 +40,7 @@ Features present:
   -  Parallax scrolling of sections to provide a contemporary and professional feel whilst allowing simple navigation to all parts of the site. Scrolling is effected by use of the CSS Smooth-scroll attribute
   -  The navbar stays collapsed regardless of the screen size to promote a minimalist design
   -  Learning material video and audio elements can be played directly on the page without browsing away
-  -  A pure CSS and HTML5 crossword is provided as part of the learning materials
+  -  A pure CSS and HTML5 crossword is provided as part of the learning materials illustrating use of CSS Grid layout
   -  A [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) quiz is presented as a modal allowing completion without navigation away from the page
   -  A simple contact form is provided coupled with a warning modal informing users about the status of data collection and privacy
 
@@ -185,7 +185,7 @@ The first deployed site was shared on slack #peer-code-review and I'm very grate
   - changed color for footer text to #fff
 
 
-Two outstanding issues remain that:
+### Outstanding issues:
  - icon buttons left align instead of to the centre on iOS Safari on a real iPhone5 - however this is not seen in simulations of this model on browser developer tools or responsiveness testing websites.  
  - that the modal quiz content does not run on some old models of the iPad.
 
@@ -208,10 +208,9 @@ All photos were taken from [Pexels](https://www.pexels.com/), a stock image libr
 ### Acknowledgements
 
  - The inspiration for the parallax scrolling site came from the Milestone 1 portfolio site by [Haley Shafer](https://www.haleyschafer.com/). This has been substantially   modified to use Bootstrap 4.3.1 as well as to introduce almost  entirely new content.
- - The speech bubbles used in the site are modified from those described by[Auralinna](https://auralinna.blog/post/2017/how-to-make-a-css-speech-bubble-with-borders-and-drop-shadow) to make their appearance more streamlined and to suit the overall site style.
+ - The speech bubbles used in the site are modified from those described by [Auralinna](https://auralinna.blog/post/2017/how-to-make-a-css-speech-bubble-with-borders-and-drop-shadow) to make their appearance more streamlined and to suit the overall site style.
  - The modal quiz was devloped from that of  [Bobby Black](https://github.com/BobbyBLACK/JavaScript_QUIZ/blob/master/quiz.html). The content is entirely new and the styling was modified to make it fit this site as a modal popup.
- - The pure HTML and CSS crossword was inspired and modified from that of Adrian Roworth available [here](https://codepen.io/adrianroworth/pen/OpeyZq)
- - The pure CSS and HTML crossword associated with the 'Forget Fashion' card illustrates use of the CSS Grid layout as explained by [Adrian Roworth] (https://www.sitepoint.com/how-built-pure-css-crossword-puzzle/).
+ - The pure HTML and CSS crossword associated with the 'Forget Fashion' card was inspired and modified from that of Adrian Roworth available [here](https://codepen.io/adrianroworth/pen/OpeyZq) it illustrates use of the CSS Grid layout as explained by [Adrian Roworth] (https://www.sitepoint.com/how-built-pure-css-crossword-puzzle/).
  - The concept of parallax scrolling is demonstrated at
    [w3schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
  - I am very grateful to my mentor Antonio Rodriguez [Antonio Rodriguez] (https://github.com/AkaAnto) for pointing out some failures in styling which I have since fixed.
