@@ -557,7 +557,10 @@ color: rgba(0, 91, 171, 1);
 padding: 0em 1.35em 2.545em 1.35em;;
 font-size: 1.25em;
 border-radius: 1rem;
+  border-color: transparent;
 }
+
+.video-p, .video-p *{ outline: none !important; }
 
 .centered-thing {
     position: absolute;
@@ -567,7 +570,7 @@ border-radius: 1rem;
     transform: translate(-50%, -50%);
 }
 
-/*------- new modal quiz ----------*/
+/*------- new modal quiz ---------- my changes are deliberately left in-----*/
 input 													{ height:30px !important; }
 input[type=checkbox]									{ height:30px !important; margin-top:-3px !important; margin-right:5px !important; box-shadow:none; background-color:#ffffff; position:relative !important; }
 textarea												{ width: 90%; margin: 0 auto; display: block; }
