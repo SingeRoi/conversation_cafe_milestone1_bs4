@@ -8,12 +8,12 @@ This is a responsive mobile-first website for a imaginary local English language
 ## Wireframes
 
 The project wireframes and initial strategy analysis are provided
-    [Strategy](wireframes/strategy.jpg)
-    [Landing section](wireframes/landing_wireframe.jpg)
-    [About section](wireframes/about_wireframe.jpg)
-    [Learn section](wireframes/learn_wireframe.jpg)
-    [Support section](wireframes/support_wireframe.jpg)
-    [Contact section](wireframes/contact_wireframe.jpg)
+  +  [Strategy](wireframes/strategy.jpg)
+  +  [Landing section](wireframes/landing_wireframe.jpg)
+  +  [About section](wireframes/about_wireframe.jpg)
+  +  [Learn section](wireframes/learn_wireframe.jpg)
+  +  [Support section](wireframes/support_wireframe.jpg)
+  +  [Contact section](wireframes/contact_wireframe.jpg)
 
 ## UX
 As the largest group of intended users of the site may have limited English and/or different cultural experience of technology a major goal in the design was to make it easy to access information on the site while keeping things simple and inviting. The colours of the speech bubbles and clothing in the background images are revisited throughout to give a warm, welcoming and professional feel. The warm feel is important to English learners as ['Warm colours, large text and simple navigation are attractive to users of online ESL materials'](https://www.researchgate.net/publication/228375221_Designing_websites_for_ESL_learners_A_usability_testing_study). The English language used is simple and chosen to be understood by learners (approximately grade 6-7).
