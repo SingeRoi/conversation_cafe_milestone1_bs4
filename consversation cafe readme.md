@@ -226,6 +226,7 @@ All photos were taken from [Pexels](https://www.pexels.com/), a stock image libr
 ## On Reflection
 
 The process of this project taught me several things including that my time for coding is very limited, that my ambitions in design aspiration and ability were unrealistic and that my early estimates of feasibility were poor. I have tried to take a more pragmatic approach to completing this project and intend to set strict deadlines in future.
+I did, however, find I could use [GitHub](https://github.com/) that I like [Atom](https://atom.io) as an IDE and that migrating IDE mid-project sucks.
 
 **This is for educational use.**
 
