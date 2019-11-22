@@ -188,6 +188,7 @@ The first deployed site was shared on slack #peer-code-review and I'm very grate
 ### Outstanding issues:
  - icon buttons left align instead of to the centre on iOS Safari on a real iPhone5 - however this is not seen in simulations of this model on browser developer tools or responsiveness testing websites.  
  - that the modal quiz content does not run on some old models of the iPad.
+ - just before submission I found that a blue frame appears around the video on clicking play in Chrome when using the deployed [site](https://singeroi.github.io/conversation_cafe_milestone1_bs4/index.html#learn) on desktop but not mobile simlations including ipadpro. However, it does not occur when using a local copy. It is seen on all simulations using [the responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fsingeroi.github.io%2Fconversation_cafe_milestone1_bs4%2Findex.html) in Chrome - it disappears on clicking off element. This frame is not seen in desktop using Firefox to load the Github deployed site or the [the responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fsingeroi.github.io%2Fconversation_cafe_milestone1_bs4%2Findex.html).  Why do I like [Mozilla](https://www.mozilla.org)? I am submitting as is.
 
 
 ## Deployment
