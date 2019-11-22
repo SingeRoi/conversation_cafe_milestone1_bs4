@@ -213,7 +213,7 @@ All photos were taken from [Pexels](https://www.pexels.com/), a stock image libr
  - The pure HTML and CSS crossword associated with the 'Forget Fashion' card was inspired and modified from that of Adrian Roworth available [here](https://codepen.io/adrianroworth/pen/OpeyZq) it illustrates use of the CSS Grid layout as explained by [Adrian Roworth](https://www.sitepoint.com/how-built-pure-css-crossword-puzzle/).
  - The concept of parallax scrolling is demonstrated at
    [w3schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
- - I am very grateful to my mentor Antonio Rodriguez [Antonio Rodriguez] (https://github.com/AkaAnto) for pointing out some failures in styling which I have since fixed.
+ - I am very grateful to my mentor Antonio Rodriguez [Antonio Rodriguez](https://github.com/AkaAnto) for pointing out some failures in styling which I have since fixed.
 
 ## Future Versions
 
