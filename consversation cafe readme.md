@@ -6,15 +6,19 @@ This is a responsive mobile-first website for a imaginary local English language
 
 
 ## Wireframes
-A live demo maybe be found [here soon](
 
-![Desktop Demo]( "Desktop Demo")
-
+The project wireframes and initial strategy analysis are provided
+    [Strategy](wireframes/strategy.jpg)
+    [Landing section](wireframes/landing_wireframe.jpg)
+    [About section](wireframes/about_wireframe.jpg)
+    [Learn section](wireframes/learn_wireframe.jpg)
+    [Support section](wireframes/support_wireframe.jpg)
+    [Contact section](wireframes/contact_wireframe.jpg)
 
 ## UX
 As the largest group of intended users of the site may have limited English and/or different cultural experience of technology a major goal in the design was to make it easy to access information on the site while keeping things simple and inviting. The colours of the speech bubbles and clothing in the background images are revisited throughout to give a warm, welcoming and professional feel. The warm feel is important to English learners as ['Warm colours, large text and simple navigation are attractive to users of online ESL materials'](https://www.researchgate.net/publication/228375221_Designing_websites_for_ESL_learners_A_usability_testing_study). The English language used is simple and chosen to be understood by learners (approximately grade 6-7).
 
-The primary aim of a website like this is to raise awareness and promote participation in a vital community resource meaning that it must immediately communicate the purpose(s) of the site and of the group it promotes to a range of users. It has to overcome language and cultural barriers to offer simple clear messages to new visitors with limited English and be able to show them what is on offer and attract them to interact further online and in person. I also felt it was important that the site should provide reasons to continue visiting it. This is addressed by the inclusion of online teaching materials suitable for the wide range of learners who would make use of the café. The site is an advert to attract new volunteers and to encourage donations of cash, refreshments or educational items. Therefore there is a clearly labelled support section indicating how they may help and providing call to action via icon buttons. Another small but vital user group come from elsewhere in the voluntary sector including potential collaborators; referrers and funders so it is important that the site showcases the activities; ethos, professionalism and enthusiasm of the group to them immediately.  The site provides potential links to contact methods most commonly used by the community it serves, where free mobile messaging services such as WeChat and WhatsApp dominate. It also provides access to a respected donation and fundraising site and provides a map and contact form to encourage interaction online and in person. The Contact form itself uses English terms 'Name', 'Email' 'Phone' and 'Message' I feel these are understood by most users through prior experience see [discussion] (https://ux.stackexchange.com/questions/59913/best-interaction-layout-for-contact-forms-when-users-are-esl).
+The primary aim of a website like this is to raise awareness and promote participation in a vital community resource meaning that it must immediately communicate the purpose(s) of the site and of the group it promotes to a range of users. It has to overcome language and cultural barriers to offer simple clear messages to new visitors with limited English and be able to show them what is on offer and attract them to interact further online and in person. I also felt it was important that the site should provide reasons to continue visiting it. This is addressed by the inclusion of online teaching materials suitable for the wide range of learners who would make use of the café. The site is an advert to attract new volunteers and to encourage donations of cash, refreshments or educational items. Therefore there is a clearly labelled support section indicating how they may help and providing call to action via icon buttons.  The ethos of the group and site is empowering and this needs to be nudged to all users for example by diversity in images and text choice eg affirmatory 'I speak/Je parle/Hablo' in navbar. Another small but vital user group come from elsewhere in the voluntary sector including potential collaborators; referrers and funders so it is important that the site showcases the activities; ethos, professionalism and enthusiasm of the group to them immediately.  The site provides potential links to contact methods most commonly used by the community it serves, where free mobile messaging services such as WeChat and WhatsApp dominate. It also provides access to a respected donation and fundraising site and provides a map and contact form to encourage interaction online and in person. The Contact form itself uses English terms 'Name', 'Email' 'Phone' and 'Message' I feel these are understood by most users through prior experience see [discussion] (https://ux.stackexchange.com/questions/59913/best-interaction-layout-for-contact-forms-when-users-are-esl).
 
 Users include low income groups who would access the site via older mobile devices or public PC's as well as others such as students or funding agencies using higher specification devices. Therefore the focus was on making the site as responsive as possible. Wherever possible I wanted to enable the user to access content intuitively and with out leaving the page, hence the use of a modal quiz for example.
 
@@ -158,21 +162,22 @@ Media are embedded in the site and can be played directly by pressing a play but
 
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, One+5) to ensure compatibility and responsiveness. A range of other devices were simulated using [Responsive DesignChecker.](https://responsivedesignchecker.com) and [The Responsinator](https://www.responsinator.com/)
 As a result of these tests:
- - I found there was no video play option using Chrome this was fixed by specifically introducing 'control'  and then restyling the video position by adjusting padding.
+ - I found there was no video play option using Chrome this was fixed by specifically introducing 'control'  and  then restyling the video position by adjusting padding.
 
  - I found that Learn/Support cards sat to the right on iPhone6/7/8/X on both Chrome &/Firefox simulations
  - I also found that cards were slightly to right on pixel2XL in Chrome simulations.
  - To correct these issues I removed an 80%container width media query previously applying.
+ - Further adjustments to styling were made to adjust positioning on small devices
 
-- I also improved card alignment on iphone XL with a solution from [here]
-(https://stackoverflow.com/questions/6072154/html-css-wrapper-is-not-center-aligned-in-iphone-safari)
+ - I also improved card alignment on iphone XL with a solution from [here]
+ (https://stackoverflow.com/questions/6072154/html-css-wrapper-is-not-center-aligned-in-iphone-safari)
 
-Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UE through responsive design;
+Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UX through responsive design;
 
 ### Peer Review
 The first deployed site was shared on slack #peer-code-review and I'm very grateful to [Alicja Malinkowska](https://app.slack.com/team/UML1GUKHU) for helpful comments. As a result of these I;
   - changed all section widths to 100% and introduced overflow-x:hidden; in sections where horizontal overflow was occurring.
-  - revised the contact section to use flex properties to place the contact form on the right on large displays whist using a media query to make it sit inline vertically on small devices.
+  - revised the broken contact section to use flex properties to place the contact form on the right on large displays whist using a media query to make it sit inline vertically on small devices
   - changed transparency of text color in About, on small displays, and in Footer
   - set a constant height for p elements in learning cards to give a consistent relationship to icon buttons
   - changed transparency of background-color and changed color to #fff for learn and support icons
@@ -219,8 +224,11 @@ All photos were taken from [Pexels](https://www.pexels.com/), a stock image libr
 
  - An appropriate privacy policy needs to be written and uploaded - the café would want this to be done in open consultation with users.
 
- - The crossword should be reformatted to make it more responsive.
+ - The crossword should be reformatted to make it more responsive if possible as a modal
 
+## On Reflection
+
+The process of this project taught me several things including that my time for coding is very limited, that my ambitions in design aspiration and ability were unrealistic and that my early estimates of feasibility were poor. I have tried to take a more pragmatic approach to completing this project and intend to set strict deadlines in future.
 
 **This is for educational use.**
 
